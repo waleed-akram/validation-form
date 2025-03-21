@@ -1,0 +1,87 @@
+
+
+.book{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  /* border: 0.2em solid gray; */
+  border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  background-color: rgb(79, 78, 78);
+}
+
+.chapters{
+  /* display: inline-block; */
+  display: flex;
+  flex-direction: column;
+  float: left;
+  flex-wrap: nowrap;
+  width: 47%;
+  margin: 10px;
+  padding: 20px;
+  border: 0.2em solid gray;
+  border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  background-color: lightgray;
+}
+
+.chapter{
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.chapter span{
+  display: block;
+  padding-bottom: 5px;
+  border-bottom: 2px dashed gray;
+  margin-bottom: 5px;
+}
+
+.Bookmarks{
+  float: right;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  margin: 10px;
+  padding: 10px;
+  /* justify-items: auto; */
+}
+
+.Bookmarks a{
+  text-decoration: none;
+  color: black !important;
+  margin: inherit;
+  border: 0.15em dashed rgb(89, 72, 63);
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight:bold;
+  background-color:rgb(128, 128, 128);
+  color: white !important;
+}
+
+.Bookmarks a:hover{
+  background-color: rgb(69, 70, 71);
+  color: white !important;
+  cursor:crosshair;
+}
+
+aside{
+  background-color: rgb(213, 210, 210);
+  border: 0.2em solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.Bookmarks p{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid gray;
+}
