@@ -4,7 +4,7 @@ export default function () {
   return (
     <div className="book" id='book'>
       <div className="chapters">
-        <a href="mailto:wali117khan@gmail.com">Buy me a Coffee !</a>
+        <a href="mailto:waleed.akram42069@gmail.com">Buy me a Coffee !</a>
         <p className='chapter' id='1'>
           <span>Chapter # 01</span>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ut deserunt
