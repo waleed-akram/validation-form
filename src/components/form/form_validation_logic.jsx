@@ -12,7 +12,7 @@ function formLogic(username,password) {
     return false;
   } else if (username === "" || !username) {
     // setMessage("Please enter username!")
-    message.warning({content: "Please enter password!", className: "custom-message"});
+    message.warning({content: "Please enter username!", className: "custom-message"});
     return;
   }
   if (!(username === 'admin') && !(password === 'admin')) {
@@ -21,11 +21,11 @@ function formLogic(username,password) {
     return false;
   } else if (!(password === 'admin')) {
     // setMessage("Invalid password !")
-    message.error({content: "Invalid username!", className: "custom-message"});
+    message.error({content: "Invalid password!", className: "custom-message"});
     return false;
   } else if (!(username === 'admin')) {
     // setMessage("Invalid username!")
-    message.error({content: "Invalid password!", className: "custom-message"});
+    message.error({content: "Invalid username!", className: "custom-message"});
     return false;
   }
 
