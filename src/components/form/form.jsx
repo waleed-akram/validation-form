@@ -32,6 +32,7 @@ function Form() {
 
   return (
     <div>
+      {/* <p>a<p>b</p>c</p> */}
       {/* <p className='message'>{message}</p> */}
       <div className="form-container">
         <form onSubmit={submitForm} className='form'>
