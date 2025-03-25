@@ -25,7 +25,7 @@ function formLogic(username,password) {
     return false;
   } else if (!(username === 'admin')) {
     // setMessage("Invalid username!")
-    message.error({content: "Invalid username!", className: "custom-message"});
+    message.error({content: "User does not exist!", className: "custom-message"});
     return false;
   }
 
