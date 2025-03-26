@@ -28,6 +28,9 @@ h2.page-heading{
   font-weight: 600;
   font-size: 30px;
   text-align: center;
+  /* text-wrap-style: normal; */
+  /* -webkit-text-fill-color: cadetblue; */
+  overflow-wrap: anywhere;
 }
 
 .responsive-col1 {
