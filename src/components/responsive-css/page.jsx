@@ -3,8 +3,8 @@ import './responsive-styling.css'
 export default function Page() {
   return (
     <div className='page-container'>
-      <h1>Responsive CSS</h1>
-      <h2>Resize the browser window to see the effect.</h2>
+      <h1 className='page-heading'>Grid Box & Key Frames</h1>
+      <h2 className='page-heading'>Resize the browser window to see the effect.</h2>
       <div className="responsive">
         <div className="responsive-col1">
           <p>Done</p>
