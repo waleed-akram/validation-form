@@ -89,14 +89,20 @@ message{
   font-size: 20px;
 }
 
+.form input:focus {
+  outline: none;
+  border: 0.1em solid blue;
+}
+
 .form button {
   margin: 10px auto;
   /* margin-bottom: -10px; */
   padding: 0.7em;
+  outline:none;
   font-size: 20px;
   width: 30%;
   border-radius: 10px;
-  border: 0.01em solid gray;
+  /* border: 0.01em solid gray; */
   background:linear-gradient(125deg, #6ef321, #1e9fe9);
   color: white;
   border: 0;
@@ -109,4 +115,9 @@ message{
 
 .form button:hover{
   background-position: right bottom;
+}
+
+.form button:focus{
+  outline: none;
+  border: 0.1em solid green;
 }

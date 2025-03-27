@@ -3,7 +3,6 @@ let var1 = "tvgmllldyqjpuwvnfjjwpxghvsrccqmlwbncfsyhtcpeitpocizfabrcekpzynhxhkqe
 console.log(var1[0])
 console.log(var1[var1.length-1])
 
-
 if(var1[0]!==var1[var1.length-1]){
     console.log("The first and last characters are different")
 }
